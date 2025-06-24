@@ -1,0 +1,17 @@
+service: backend-challenge
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs22.x
+
+functions:
+  findAllSchedules:
+    handler: src/agenda/find-all-schedules.handler
+    description: 'Retorna todas as agendas e horários disponíveis'
+    events:
+      - http:
+          path: agendas
+          method: get

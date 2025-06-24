@@ -3,20 +3,30 @@
 
 ---
 
-## [API Reference](https://williamsjose.github.io/xp-movies/)
-
+## [API Reference](https://williamsjose.github.io/backend-challenge-ls/)
 
 ## Instructions
 
-1. ### First Clone repo
+> To run this project you will need Node.js and Serverless Framework installed
+
+1. ### First Clone repo and install dependencies
+
 ```
 git clone https://github.com/WilliamsJose/
-cd []
-```
-
-2. #### Rename *EXAMPLE.env* to *.env*
-
-3. ### Install dependencies
-```
+cd backend-challenge-ls
 npm install
+```
+
+2. #### Rename _EXAMPLE.env_ to _.env_
+
+3. ### Run with serverless framework
+
+```
+npx serverless offline --noPrependStageInUrl
+```
+
+4. ### Test
+
+```
+GET http://localhost:3000/agendas
 ```
