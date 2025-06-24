@@ -17,15 +17,13 @@ cd backend-challenge-ls
 npm install
 ```
 
-2. #### Rename _EXAMPLE.env_ to _.env_
-
-3. ### Run with serverless framework
+2. ### Run with serverless framework
 
 ```
 npx serverless offline --noPrependStageInUrl
 ```
 
-4. ### Test
+3. ### Test
 
 ```
 GET http://localhost:3000/agendas
