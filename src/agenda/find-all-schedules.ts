@@ -1,3 +1,4 @@
+import 'reflect-metadata'
 import { container } from '../container'
 import { AgendaController } from './controller/agenda.controller'
 import { APIGatewayProxyEvent } from 'aws-lambda'

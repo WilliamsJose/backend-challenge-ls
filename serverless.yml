@@ -15,3 +15,14 @@ functions:
       - http:
           path: agendas
           method: get
+
+  postSchedule:
+    handler: src/agendamento/post-schedule.handler
+    description: 'Cria um novo agendamento'
+    events:
+      - http:
+          path: agendamento
+          method: post
+    # destinations:
+    #   onFailure:
+    #     arn: Aqui colocaria um LocalStack pra testar legal em caso de falhas
