@@ -1,9 +1,9 @@
 <h1 align='center'>Backend Challenge</h1>
-<p align='center'>API using Node.js serverless framework and AWS Lambda</p>
+<p align='center'>API using Node.js, serverless framework and AWS Lambda</p>
 
 ---
 
-## [API Reference](https://williamsjose.github.io/backend-challenge-ls/)
+## [API Reference](https://williamsjose.github.io/backend-challenge-ls/) (soon...)
 
 ## Instructions
 
