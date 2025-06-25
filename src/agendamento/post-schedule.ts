@@ -7,9 +7,8 @@ import { agendamentoSchema } from '../domains/schemas/agendamento.schema'
 import { IControllerResponse } from '../domains/interfaces/controller-response.interface'
 import { ApiGatewayEnvelope } from '@aws-lambda-powertools/parser/envelopes'
 import { JSONStringified } from '@aws-lambda-powertools/parser/helpers'
-
 import middy from '@middy/core'
-import { errorHandler } from '../utils/error-handler'
+import { errorHandler } from '../utils/error-handler.util'
 
 type Agendamento = z.infer<typeof agendamentoSchema>
 

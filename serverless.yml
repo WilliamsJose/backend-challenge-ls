@@ -1,4 +1,4 @@
-service: backend-challenge
+service: backend-challenge-ls
 
 plugins:
   - serverless-offline
